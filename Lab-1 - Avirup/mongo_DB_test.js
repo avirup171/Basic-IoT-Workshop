@@ -2,8 +2,8 @@
 
 var mqtt    = require('mqtt');
 var MongoClient = require('mongodb').MongoClient;
-var url="mongodb://137.117.88.62:27017/";
-var mqttClient= mqtt.connect('mqtt://mqtt.blackspektro.com');
+var url="mongodb://";
+var mqttClient= mqtt.connect('mqtt://');
 console.log("MQTT locally connected");
 
 var topicName="nehu/lab1/uname/";
